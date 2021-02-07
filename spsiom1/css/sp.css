@@ -1,0 +1,146 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+	background: url(../img/wall.jpg);
+	background-repeat: repeat-x;
+	background-color: #bfbfbf;
+	font-family: 'Abel', sans-serif;
+}
+#page{
+	background-color: #fff; 
+	width: 900px;
+	margin: auto;
+}
+.info {
+	float: right;
+	text-align: right;
+	
+}
+.info p{
+	padding: 10px;
+}
+.logo{
+	float: left;
+}
+.c{
+	clear: both;
+}
+
+.info img {
+	padding-bottom: 5px;
+}
+header{
+	border-bottom: 8px solid #ccc;
+}
+nav ul{
+	list-style: none; padding-top: 1px;
+}
+nav ul li a{ 
+	text-decoration: none; padding: 3px; background:#044470; color: #fff; border-right: 2px solid #fff;
+	transition: 0.5s;
+}
+
+nav{
+	text-transform: uppercase; float: right;
+}
+nav ul li { float: left; position: relative; transition: 0.9s;}
+
+nav ul li.active a {
+	background:#ccc; color: red;
+}
+
+.serve {
+	position: absolute; top: 27px; background-color: #044470; color: #ccc; padding: 0 54px 0 33px;
+	display: none; 
+}
+
+.serve li {
+	line-height: 40px; border-bottom: 1px dotted #fff;
+}
+
+
+
+nav ul li:hover .serve{
+	display: block; 
+}
+
+nav ul li.ser a:hover, nav ul li.cnt a:hover {
+	background-color: #ccc; color: #044470; 
+}
+
+/*ol.serve li:last-child:after{
+	content: ""   ;  border-bottom: none;
+}*/
+
+.banner img
+{
+	width:900px; 
+}
+
+section {
+	padding: 15px; 
+}
+
+.right {
+	float: right; width: 25%;
+}
+
+.left {
+	float: left; width:70%; border-right: 1px dotted #000; padding-right: 55px; text-align: justify;
+	position: relative;
+}
+
+section.left p:first-line {
+	color: red;
+}
+
+
+.right ul {
+	list-style: none;
+}
+
+.right ul li a {
+	text-decoration: none; color: #044470;
+}
+
+.right ul li a:hover {
+	color: red;
+}
+
+footer{
+	background: #044470; color: #fff; padding: 10px 5px;
+}
+
+.foot-left {
+	float: left;
+}
+
+.foot-right {
+	float: right;
+}
+
+input[type=text], input[type=email] {
+	margin-left: 115px; width: 265px; height: 28px; padding: 0 5px;
+}
+
+textarea {
+	margin-left: 97px; padding: 7px;
+}
+
+input[type=submit]{
+	padding: 10px;
+background: #000;
+color: #ccc;
+border: none;
+position: absolute; bottom: 11px; right: 204px;
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+}
+
+form {
+	padding-bottom: 50px;
+}
+

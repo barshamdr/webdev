@@ -1,0 +1,31 @@
+*{
+	margin: 0; padding:0; box-sizing: border-box;
+}
+body {
+	background:url(https://1.bp.blogspot.com/-Q2E9rNCCrH8/VxCvG2NknhI/AAAAAAAAAzs/4pO9OWaqPOw/s000/background.jpg);
+	 height: 1190px; background-attachment: fixed;
+}
+
+.container{ width: 1170px; margin: auto;}
+.contents{
+	background-color: rgba(0,0,0,0.7); color: #fff; 
+}
+.social { text-align: right; font-size: 35px; margin: 10px; }
+.fa-facebook-square{color:#5872a7;}
+.fa-twitter-square{color: #9cdbf6;}
+.fa-google-plus-square{ color: #ff0000; }
+
+.title{ padding: 10px 5px 40px 5px; }
+.nav { border-bottom: 5px solid green; }
+.nav ul{ list-style: none; }
+.nav ul li { display: inline; margin: 0px 8px;  }
+.nav ul li a{ text-decoration: none; color: #fff; padding: 10px 10px 0 10px; 
+	background-color: green; border-radius: 5px 5px 0 0; cursor: pointer;}
+
+.para1{ padding: 15px; position: relative; }
+.paragraphs{ display: flex; justify-content: space-between; }
+button { padding: 6px; border: 5px solid green; position: absolute; bottom: -20px; right: 20px; }
+
+
+
+
